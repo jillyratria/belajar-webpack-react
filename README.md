@@ -16,3 +16,9 @@ Our first project is build a Hellow World page with webpack & react. You're not 
 ### Source
 - URL `Learn React` redirect to [here](https://reactjs.org/)
 - use this image to `https://imgix3.ruangguru.com/assets/user_uploads/pp/pp_iqo2rc_8285.png` as src to display react logo
+
+
+## Need to Level Up?
+- add an input under the logo
+- anything inside the input will be printed to change the `React` word.
+- see the demo https://drive.google.com/file/d/1vACPL17WGpI-Jv9Sf71oykKvnfWAGnRh/view?usp=sharing
