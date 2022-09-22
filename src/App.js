@@ -1,7 +1,8 @@
 import "./App.css";
-import React from "react";
+import React, { useState } from "react";
 
 export default function App() {
+  const [state, setstate] = useState("React");
   return (
     <div className="App">
       <header className="App-header">
@@ -12,8 +13,13 @@ export default function App() {
           className="App-logo"
           alt="logo"
         />
+        <input
+          type="text"
+          onChange={(e) => setstate(e.target.value)}
+          value={state}
+        />
         <p>
-          Hellow <code>React</code>'s World
+          Hellow <code>{state}</code>'s World
         </p>
         <a
           className="App-link"
